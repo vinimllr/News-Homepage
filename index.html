@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <main class="main">
+    <header class="cabecalho">
+      <img src="./assets/images/logo.svg" alt="">
+      <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu" class="container__label">
+            <span class="cabecalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="cabecalho__lista">
+          <li class="cabecalho__item"><a href="#" class="cabecalho__link">Home</a></li>
+          <li class="cabecalho__item"><a href="#" class="cabecalho__link">New</a></li>
+          <li class="cabecalho__item"><a href="#" class="cabecalho__link">Popular</a></li>
+          <li class="cabecalho__item"><a href="#" class="cabecalho__link">Trending</a></li>
+          <li class="cabecalho__item"><a href="#" class="cabecalho__link">Categories</a></li>
+        </ul>
+      </div>
+    </header>
+    <section class="container-principal">
+      <section class="noticia-principal">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="noticia-principal-img img-mobile">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="noticia-principal-img img-desktop">
+        <div class="grid-conteudo">
+          <h2 class="titulo-principal"><a href="#" class="titulo-link link-principal">The Bright Future of Web 3.0?</a></h2>
+          <p class="texto-noticia">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+          <a href="#" class="botao">Read More</a>
+        </div>
+      </section>
+      <section class="news">
+        <h2 class="news__titulo">New</h2>
+        <ul class="news__lista">
+          <li class="noticia__item">
+            <h2 class="news__noticia-titulo"><a href="#" class="titulo-link news-link">Hydrogen VS Electric Cars</a></h2>
+            <p class="news__noticia-texto">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </li>
+          <li class="noticia__item">
+            <h2 class="news__noticia-titulo"><a href="#" class="titulo-link news-link">The Downsides of AI Artistry</a></h2>
+            <p class="news__noticia-texto">What are the possible adverse effects of on-demand AI image generation?</p>
+          </li>
+          <li class="noticia__item">
+            <h2 class="news__noticia-titulo"><a href="#" class="titulo-link news-link">Is VC Funding Drying Up?</a></h2>
+            <p class="news__noticia-texto">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="noticia-secundaria">
+        <ul class="noticia-secundaria__lista">
+          <li class="noticia-secundaria__item">
+            <img src="./assets/images/image-retro-pcs.jpg" alt="" class="noticia-secundaria__img">
+            <h4 class="noticia-secundaria__numero">01</h4>
+            <h3 class="noticia-secundaria__titulo"><a href="#" class="titulo-link noticia-secundaria-link">Reviving Retro PCs</a></h3>
+            <p class="texto-noticia noticia-secundaria__texto">What happens when old PCs are given modern upgrades?</p>
+          </li>
+          <li class="noticia-secundaria__item">
+            <img src="./assets/images/image-top-laptops.jpg" alt="" class="noticia-secundaria__img">
+            <h4 class="noticia-secundaria__numero">02</h4>
+            <h3 class="noticia-secundaria__titulo"><a href="#" class="titulo-link noticia-secundaria-link">Top 10 Laptops of 2022</a></h3>
+            <p class="texto-noticia noticia-secundaria__texto">Our best picks for various needs and budgets.</p>
+          </li>
+          <li class="noticia-secundaria__item">
+            <img src="./assets/images/image-gaming-growth.jpg" alt="" class="noticia-secundaria__img">
+            <h4 class="noticia-secundaria__numero">03</h4>
+            <h3 class="noticia-secundaria__titulo"><a href="#" class="titulo-link noticia-secundaria-link">The Growth of Gaming</a></h3>
+            <p class="texto-noticia noticia-secundaria__texto">How the pandemic has sparked fresh opportunities.</p>
+          </li>
+        </ul>
+      </section>
+    </section>
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
